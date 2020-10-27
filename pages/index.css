@@ -1,0 +1,63 @@
+/* fonts */
+@import url(../fonts/fonts.css);
+/* general */
+@import url(../blocks/page/page.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang_list/header__lang-list.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+/* content*/
+@import url(../blocks/content/content.css);
+/* lead */
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__route/lead__route.css);
+@import url(../blocks/lead/__ellipse/lead__ellipse.css);
+@import url(../blocks/lead/__ellipse/_stroke/lead__ellipse_stroke.css);
+@import url(../blocks/lead/__city/lead__city.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_pskov.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_velikiy-novgorod.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_tver.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_yaroslavl.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_manturovo.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_kotelnich-1.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_glazov.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_perm.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_tyumen.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_omsk.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_krasnoyarsk.css);
+@import url(../blocks/lead/__city/_content/lead__city_content_ulan-ude.css);
+@import url(../blocks/lead/__line/lead__line.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+/* intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
+/* photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/* places */
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__url-heading/places__url-heading.css);
+@import url(../blocks/places/__link/places__link.css);
+@import url(../blocks/places/__paragraph/places__paragraph.css);
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link-list/footer__link-list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
