@@ -1,6 +1,39 @@
+/* Основные стили для разрешения до 1280px и выше */
 .page {
+  width:100%;
+  max-width: 1600px;
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #fff;
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
+  .page {
+    width:100%;
+    max-width: 1024px;
+  }
+}
+
+/* Cтили для для разрешения до 768px */
+@media screen and (max-width: 768px) {
+  .page {
+    width:100%;
+    max-width: 768px;
+  }
+}
+
+/* Cтили для для разрешения до 425px */
+@media screen and (max-width: 425px) {
+  .page {
+    width:100%;
+    max-width: 425px;
+  }
 }

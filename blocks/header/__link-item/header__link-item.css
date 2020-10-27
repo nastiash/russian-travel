@@ -1,0 +1,9 @@
+.header__link-item {
+  text-decoration: underline;
+  padding-right: 18px;
+}
+
+.header__link-item:last-of-type {
+  padding-right: 0;
+  text-decoration: none;
+}
