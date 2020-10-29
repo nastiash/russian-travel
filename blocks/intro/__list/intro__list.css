@@ -1,0 +1,10 @@
+/* Основные стили для разрешения до 1280px и выше*/
+.intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
