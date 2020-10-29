@@ -1,19 +1,23 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .lead {
+  width: calc(100% - (148px * 2));
   margin: 0 148px 92px;
   position: relative;
+  outline: 1px solid red;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .lead {
+    width: calc(100% - (48px * 2));
     margin: 0 48px 92px;
   }
 }
 
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
+/* Cтили для для разрешения до 825px */
+@media screen and (max-width: 825px) {
   .lead {
+    width: 100%;
     margin: 0 0 88px;
   }
 }
@@ -21,6 +25,7 @@
 /* Cтили для для разрешения до 425px */
 @media screen and (max-width: 425px) {
   .lead {
+    width: 100%;
     margin: 0 0 64px;
   }
 }

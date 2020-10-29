@@ -1,0 +1,31 @@
+/* Основные стили для разрешения до 1280px и выше*/
+.cover__title {
+  width: 720px;
+  margin: 0 auto 32px;
+  outline: 1px solid red;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+/* Cтили для для разрешения до 720px */
+@media screen and (max-width: 720px) {
+  .cover__title {
+    margin: 0 auto 32px;
+    width: 420px;
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+/* Cтили для для разрешения до 425px */
+@media screen and (max-width: 425px) {
+  .cover__title {
+    margin: 0 auto 16px;
+    width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
