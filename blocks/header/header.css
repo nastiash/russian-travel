@@ -1,7 +1,7 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .header {
   width: calc(100% - (48px * 2));
-  max-width: 1280px;
+  max-width: 1600px;
   margin: 28px 48px 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,10 +9,9 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 /* Cтили для для разрешения до 768px */

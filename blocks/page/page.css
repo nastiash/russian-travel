@@ -1,8 +1,9 @@
-/* Основные стили для разрешения до 1280px и выше */
+/* Основные стили для разрешения до 1280px */
 .page {
   width:100%;
   max-width: 1600px;
   margin: 0 auto;
+  position: relative;
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter';
@@ -18,7 +19,6 @@
 @media screen and (max-width: 1024px) {
   .page {
     width:100%;
-    max-width: 1024px;
   }
 }
 
@@ -26,7 +26,6 @@
 @media screen and (max-width: 768px) {
   .page {
     width:100%;
-    max-width: 768px;
   }
 }
 
@@ -34,6 +33,5 @@
 @media screen and (max-width: 425px) {
   .page {
     width:100%;
-    max-width: 425px;
   }
 }
