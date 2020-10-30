@@ -10,8 +10,8 @@
   line-height: 100px;
 }
 
-/* Cтили для для разрешения до 825px */
-@media screen and (max-width: 825px) {
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
   .lead__title {
     margin: 0 auto 16px;
     width: 500px;
@@ -27,5 +27,12 @@
     width: 288px;
     font-size: 40px;
     line-height: 44px;
+  }
+}
+
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
+  .lead__title {
+
   }
 }

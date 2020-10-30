@@ -21,8 +21,8 @@
   }
 }
 
-/* Cтили для для разрешения до 425px */
-@media screen and (max-width: 425px) {
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
   .intro__title {
     font-style: normal;
     font-weight: 900;

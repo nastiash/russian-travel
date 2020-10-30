@@ -1,3 +1,4 @@
+/* Основные стили для разрешения до 1280px и выше*/
 .lead__caption {
   margin: 8px 0 0 0;
   font-style: normal;
@@ -8,15 +9,22 @@
   text-transform: uppercase;
 }
 
-/* Cтили для для разрешения до 825px */
-@media screen and (max-width: 825px) {
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-/* Cтили для для разрешения до 425px */
-@media screen and (max-width: 425px) {
+/* Cтили для для разрешения до 768px */
+@media screen and (max-width: 768px) {
+  .lead__caption {
+
+  }
+}
+
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
   .lead__caption {
     margin-left: 16px;
   }

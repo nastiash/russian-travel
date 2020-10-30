@@ -14,6 +14,13 @@
   align-items: flex-end;
 }
 
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
+  .header {
+
+  }
+}
+
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .header {
@@ -23,8 +30,8 @@
   }
 }
 
-/* Cтили для для разрешения до 425px */
-@media screen and (max-width: 425px) {
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
   .header {
     width: calc(100% - (16px * 2));
     max-width: 425px;

@@ -1,3 +1,4 @@
+/* Основные стили для разрешения до 1280px и выше*/
 .header__lang-link {
   text-decoration: none;
   color: #fff;
@@ -7,8 +8,22 @@
   line-height: 28px;
 }
 
-/* Cтили для для разрешения до 425px */
-@media screen and (max-width: 425px) {
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
+  .header__lang-link {
+
+  }
+}
+
+/* Cтили для для разрешения до 768px */
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+
+  }
+}
+
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

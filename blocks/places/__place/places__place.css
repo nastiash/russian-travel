@@ -1,0 +1,36 @@
+/* Основные стили для разрешения до 1280px и выше*/
+.places__place {
+  outline: 1px solid red;
+  margin: 0 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(92px, 152px) 1fr;
+  gap: 40px;
+}
+
+.places__place:last-of-type {
+  margin: 0;
+}
+
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
+  .places__place {
+
+  }
+}
+
+/* Cтили для для разрешения до 768px */
+@media screen and (max-width: 768px) {
+  .places__place {
+    margin: 0 0 73px;
+  }
+}
+
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0 0 12px;
+  }
+}

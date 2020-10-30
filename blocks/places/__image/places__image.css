@@ -1,3 +1,6 @@
 .places__image {
-  width: 55%;
+  outline: 1px solid red;
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
 }

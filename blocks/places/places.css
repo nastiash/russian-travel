@@ -1,0 +1,33 @@
+/* Основные стили для разрешения до 1280px и выше*/
+.places {
+  width: calc(100% - (148px * 2));
+  margin: 0 148px 92px;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+}
+
+
+/* Cтили для для разрешения до 1024px */
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - (48px * 2));
+    margin: 0 48px 92px;
+  }
+}
+
+/* Cтили для для разрешения до 768px */
+@media screen and (max-width: 768px) {
+  .places {
+    width: 100%;
+    margin: 0 0 88px;
+  }
+}
+
+/* Cтили для для разрешения до 320px */
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+    margin: 0 0 64px;
+  }
+}

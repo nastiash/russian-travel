@@ -1,0 +1,8 @@
+.places__paragraph {
+  outline: 1px solid red;
+  margin: 0;
+}
+
+.places__paragraph:first-of-type {
+ margin: 0 0 26px;
+}
