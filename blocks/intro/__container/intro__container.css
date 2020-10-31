@@ -1,32 +1,31 @@
 /* Основные стили для разрешения до 1280px и выше*/
-.lead {
-  max-width: 984px;
+.intro__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0 auto 92px;
+  max-width: 690px;
+  margin: 0 auto 0 0;
   outline: 1px solid red;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
-  .lead {
-    max-width: 928px;
+  .intro__container {
+
   }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
-  .lead {
-    max-width: 984px;
-    margin: 0 auto 88px;
+  .intro__container {
+    max-width: 720px;
+    margin: 0;
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-    margin: 0 auto 64px;
+  .intro__container {
+    max-width: 288px;
+    margin: 0;
   }
 }

@@ -1,25 +1,32 @@
 /* Основные стили для разрешения до 1280px и выше*/
-.cover__overlay {
-  width: 55%;
+.header__list-item {
+  text-decoration: underline;
+  padding-right: 18px;
+  margin-bottom: 6px;
+}
+
+.header__list-item:last-of-type {
+  padding-right: 0;
+  text-decoration: none;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
-  .cover__overlay {
+  .header__link-item {
 
   }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
-  .cover__overlay {
+  .header__list-item {
 
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
-  .cover__overlay {
+  .header__list-item {
 
   }
 }

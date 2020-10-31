@@ -1,6 +1,14 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .cover__subtitle {
-  width: 55%;
+  max-width: 360px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+  outline: 1px solid greenyellow;
 }
 
 /* Cтили для для разрешения до 1024px */
@@ -13,13 +21,13 @@
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-
+    font-size: calc((100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-
+    line-height: calc(16 / 14);
   }
 }

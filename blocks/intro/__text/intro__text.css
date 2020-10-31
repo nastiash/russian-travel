@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
+  line-height: calc(26 / 16);
 }
 
 /* Cтили для для разрешения до 1024px */

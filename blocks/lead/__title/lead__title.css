@@ -1,38 +1,38 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .lead__title {
-  width: 720px;
-  margin: 0 auto 32px;
+  max-width: 720px;
+  margin-bottom: 32px;
   outline: 1px solid red;
   text-align: center;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: calc(100 / 96);
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin: 0 auto 16px;
-    width: 500px;
-    font-size: 60px;
-    line-height: 64px;
+
   }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .lead__title {
-    margin: 0 auto 16px;
-    width: 288px;
-    font-size: 40px;
-    line-height: 44px;
+    /*
+    https://habr.com/ru/post/310186/
+    font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);
+    */
+    font-size: calc((100vw - 320px) / (768 - 320) * (96 - 40) + 40px);
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .lead__title {
-
+    max-width: 288px;
+    margin-bottom: 16px;
+    line-height: calc(44 / 40);
   }
 }

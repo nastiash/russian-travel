@@ -1,6 +1,13 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .footer__link {
+  text-decoration: none;
+  color: #fff;
+  outline: 1px solid red;
+  padding-right: 18px;
+}
 
+.footer__link:last-child {
+  padding-right: 0;
 }
 
 /* Cтили для для разрешения до 1024px */

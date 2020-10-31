@@ -1,23 +1,23 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .intro {
-  display: inline-flex;
-  flex-direction: column;
-  width: 690px;
-  margin: 0 442px 92px 148px;
+  max-width: 984px;
+  margin: 0 auto 92px;
   outline: 1px solid red;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .intro {
-    margin: 0 286px 92px 48px;
+    max-width: 928px;
+    margin: 0 auto 88px;
   }
 }
+
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .intro {
-    width: calc(100% - (24px * 2));
+    max-width: 720px;
     margin: 0 24px 88px 24px;
   }
 }
@@ -25,7 +25,7 @@
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .intro {
-    width: calc(100% - (16px * 2));
+    max-width: 320px;
     margin: 0 16px 64px 16px;
   }
 }

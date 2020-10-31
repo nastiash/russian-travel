@@ -1,6 +1,8 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .footer__link-list {
-
+  list-style: none;
+  display: flex;
+  outline: 1px solid red;
 }
 
 /* Cтили для для разрешения до 1024px */
@@ -20,6 +22,6 @@
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .footer__link-list {
-
+    flex-direction: column;
   }
 }

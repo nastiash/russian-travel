@@ -1,38 +1,38 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .lead__subtitle {
-  width: 640px;
-  margin: 0 auto 64px;
+  max-width: 640px;
+  margin-bottom: 64px;
   outline: 1px solid red;
   text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: calc(36 / 30);
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    margin: 0 auto 40px;
-    width: 400px;
-    font-size: 22px;
-    line-height: 24px;
+    margin-bottom: 56px;
   }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    margin: 0 auto 40px;
-    width: 288px;
-    font-size: 16px;
-    line-height: 20px;
+    /*
+    font-size: calc((100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);
+    */
+    font-size: calc((100vw - 320px)/(768 - 320) * (30 - 16) + 16px);
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-
+    font-size: 16px;
+    line-height: calc (20 / 16);
+    max-width: 288px;
+    margin-bottom: 40px;
   }
 }

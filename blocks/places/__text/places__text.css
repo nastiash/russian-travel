@@ -29,9 +29,19 @@
   }
 }
 
+/* Cтили для для разрешения до 520px */
+@media screen and (max-width: 520px) {
+  .places__text {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .places__text {
-
+    grid-column: 1;
+    grid-row: auto;
+    padding: 0 16px 0;
   }
 }

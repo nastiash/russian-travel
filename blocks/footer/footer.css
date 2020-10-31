@@ -1,25 +1,25 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .footer {
-
+  max-width: 1184px;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .footer {
-
+    max-width: 928px;
   }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .footer {
-
+    max-width: 720px;
   }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .footer {
-
+    max-width: 186px;
   }
 }
