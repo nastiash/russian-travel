@@ -6,5 +6,7 @@
 
 .places__link:hover {
   opacity: .8;
+  -webkit-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
   transition: opacity .3s ease;
 }

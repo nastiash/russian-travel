@@ -6,6 +6,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: calc(26 / 16);
+  -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 2;
   grid-row: 2;
 }

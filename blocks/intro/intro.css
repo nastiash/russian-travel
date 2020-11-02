@@ -3,6 +3,7 @@
   max-width: 984px;
   margin: 0 auto;
   padding: 0 0 92px;
+  display: -ms-grid;
   display: grid;
   grid-template-columns: fit-content(690px) auto;
   grid-template-rows: repeat(3, auto);

@@ -10,13 +10,6 @@
   z-index: 1;
 }
 
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-
-  }
-}
-
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .cover__subtitle {

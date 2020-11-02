@@ -1,6 +1,8 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .footer__link-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -9,6 +11,9 @@
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 720px) {
   .footer__link-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
