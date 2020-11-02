@@ -7,25 +7,6 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
-}
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .intro__list {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .intro__list {
-
-  }
-}
-
-/* Cтили для для разрешения до 320px */
-@media screen and (max-width: 320px) {
-  .intro__list {
-
-  }
+  grid-column: 1;
+  grid-row: 3;
 }

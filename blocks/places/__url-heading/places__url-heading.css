@@ -1,36 +1,21 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .places__url-heading {
-  outline: 1px solid red;
   color: #aaa;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
+  line-height: calc (20 / 12);
   letter-spacing: 0.2em;
   margin: 0 0 12px;
-}
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .places__url-heading {
-
-  }
 }
 
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .places__url-heading {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: calc (12 / 12);
     letter-spacing: 0.2em;
-  }
-}
-
-/* Cтили для для разрешения до 320px */
-@media screen and (max-width: 320px) {
-  .places__url-heading {
-
   }
 }

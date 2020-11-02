@@ -1,39 +1,16 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .cover {
-  max-width: 1184px;
-  min-height: 740px;
   background-image: url(../../images/cover/__background/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 auto 92px;
-  position: relative;
-  outline: 1px solid red;
-  display: flex;
-}
-
-.cover::before {
-  content: '';
-  background-color: #2A2C2F;
-  opacity: .3;
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-  display:block;
-  outline: 1px solid rgb(226, 11, 208);
-}
-
-.cover:hover::before {
-  opacity: .8;
+  max-width: 1184px;
+  min-height: 740px;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    max-width: 100vw;
     min-height: 640px;
   }
 }
@@ -41,15 +18,13 @@
 /* Cтили для для разрешения до 768px */
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
     min-height: 480px;
   }
 }
 
-/* Cтили для для разрешения до 520px */
+/* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 320px;
     min-height: 200px;
   }
 }

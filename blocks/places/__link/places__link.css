@@ -1,5 +1,4 @@
 .places__link {
-  outline: 1px solid red;
   text-decoration: none;
   text-decoration: underline;
   color: #fff;
@@ -7,4 +6,5 @@
 
 .places__link:hover {
   opacity: .8;
+  transition: opacity .3s ease;
 }

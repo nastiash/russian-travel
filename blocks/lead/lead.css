@@ -1,25 +1,25 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .lead {
   max-width: 984px;
+  padding: 0 0 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 92px;
-  outline: 1px solid red;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
+
   }
 }
 
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
+/* Cтили для для разрешения до 928px */
+@media screen and (max-width: 960px) {
   .lead {
-    max-width: 984px;
-    margin: 0 auto 88px;
+    max-width: 768px;
+    padding: 0 0 88px;
   }
 }
 
@@ -27,6 +27,6 @@
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    margin: 0 auto 64px;
+    padding: 0 0 64px;
   }
 }

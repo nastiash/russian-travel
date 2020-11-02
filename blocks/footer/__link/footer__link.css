@@ -2,31 +2,21 @@
 .footer__link {
   text-decoration: none;
   color: #fff;
-  outline: 1px solid red;
-  padding-right: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(18 / 16);
 }
 
-.footer__link:last-child {
-  padding-right: 0;
-}
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .footer__link {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .footer__link {
-
-  }
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .3s ease;
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .footer__link {
-
+    font-size: 24px;
+    line-height: calc(24 / 24);
   }
 }

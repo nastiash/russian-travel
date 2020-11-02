@@ -1,15 +1,14 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .places__place {
-  outline: 1px solid red;
-  margin: 0 0 80px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
-  grid-template-rows: minmax(92px, 152px) 1fr;
+  grid-template-rows: auto;
   gap: 40px;
 }
 
 .places__place:last-of-type {
-  margin: 0;
+  padding: 0;
 }
 
 /* Cтили для для разрешения до 1024px */
@@ -23,15 +22,15 @@
 @media screen and (max-width: 768px) {
   .places__place {
     grid-template-columns: fit-content(340px) fit-content(352px);
-    margin: 0 0 73px;
+    padding-bottom: 72px;
   }
 }
 
 /* Cтили для для разрешения до 520px */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 680px) {
   .places__place {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    margin: 0 0 12px;
+    padding-bottom: 49px;
   }
 }

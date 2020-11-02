@@ -1,8 +1,7 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .header {
   max-width: 1184px;
-  margin: 28px 0 48px;
-  padding: 0 48px 0;
+  padding: 0 48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +24,7 @@
 @media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
-    margin: 28px 24px 48px;
+    padding: 0 24px;
   }
 }
 
@@ -33,6 +32,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    margin: 16px 16px 48px;
+    padding: 0 16px;
   }
 }

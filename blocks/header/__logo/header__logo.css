@@ -7,24 +7,10 @@
   background-repeat: no-repeat;
 }
 
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .header__logo {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .header__logo {
-
-  }
-}
-
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    max-width: 142px;
+    min-height: 42px;
   }
 }

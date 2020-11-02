@@ -1,6 +1,5 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .places__website {
-  outline: 1px solid red;
   grid-column: 2;
   grid-row: 1;
   display: flex;
@@ -8,22 +7,8 @@
   justify-content: flex-end;
 }
 
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .places__website {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .places__website {
-
-  }
-}
-
 /* Cтили для для разрешения до 320px */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 680px) {
   .places__website {
     display: none;
   }

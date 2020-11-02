@@ -1,21 +1,46 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .cover__link {
-  width: 100%;
+  max-width: 1184px;
   min-height: 740px;
-  text-decoration: none;
-  color: #fff;
-  z-index: 1;
-  outline: 1px solid blue;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__link::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: .3;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  display:block;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cover__link:hover::before {
+  opacity: .8;
+  transition: opacity .3s ease;
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .cover__link {
+    max-width: 100vw;
     min-height: 640px;
+  }
+  .cover__link::before {
+    max-width: 100vw;
   }
 }
 

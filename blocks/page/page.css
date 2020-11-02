@@ -1,8 +1,9 @@
 /* Основные стили для разрешения до 1280px */
+
 .page {
-  margin: 0 auto;
   max-width: 1280px;
   min-width: 320px;
+  padding: 28px 0 24px;
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter';
@@ -12,26 +13,11 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  outline: 1px solid red;
-}
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .page {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .page {
-
-  }
 }
 
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 320px) {
   .page {
-
+    padding: 16px 0 24px;
   }
 }

@@ -1,24 +1,13 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .intro__title {
-  margin: 0 0 40px;
+  margin: 0;
+  padding: 0 0 40px;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
-}
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .intro__title {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .intro__title {
-
-  }
+  line-height: calc(58 / 54);
+  grid-column: 1;
+  grid-row: 1;
 }
 
 /* Cтили для для разрешения до 320px */
@@ -27,6 +16,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
-    line-height: 35px;
+    line-height: calc(35 / 32);
   }
 }

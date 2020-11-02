@@ -3,24 +3,3 @@
   width: 100%;
   margin: 0 auto;
 }
-
-/* Cтили для для разрешения до 1024px */
-@media screen and (max-width: 1024px) {
-  .lead__image {
-
-  }
-}
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
-  .lead__image {
-
-  }
-}
-
-/* Cтили для для разрешения до 320px */
-@media screen and (max-width: 320px) {
-  .lead__image {
-
-  }
-}

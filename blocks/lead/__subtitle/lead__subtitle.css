@@ -1,8 +1,8 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .lead__subtitle {
+  margin: 0;
   max-width: 640px;
-  margin-bottom: 64px;
-  outline: 1px solid red;
+  padding-bottom: 64px;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -13,7 +13,7 @@
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+    padding-bottom: 56px;
   }
 }
 
@@ -33,6 +33,6 @@
     font-size: 16px;
     line-height: calc (20 / 16);
     max-width: 288px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 }

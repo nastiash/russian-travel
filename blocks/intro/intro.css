@@ -1,24 +1,27 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .intro {
   max-width: 984px;
-  margin: 0 auto 92px;
-  outline: 1px solid red;
+  margin: 0 auto;
+  padding: 0 0 92px;
+  display: grid;
+  grid-template-columns: fit-content(690px) auto;
+  grid-template-rows: repeat(3, auto);
 }
 
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 928px;
-    margin: 0 auto 88px;
+    padding: 0 0 88px;
   }
 }
 
-
-/* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
+/* Cтили для для разрешения до 960px */
+@media screen and (max-width: 960px) {
   .intro {
     max-width: 720px;
-    margin: 0 24px 88px 24px;
+    padding: 0 24px 88px;
+    grid-template-columns: fit-content(720px);
   }
 }
 
@@ -26,6 +29,7 @@
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 320px;
-    margin: 0 16px 64px 16px;
+    padding: 0 16px 64px;
+    grid-template-columns: 288px;
   }
 }
