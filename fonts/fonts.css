@@ -1,3 +1,5 @@
+/* перестаралась с удалением шрифтов =( */
+
 @font-face {
   font-family: 'Inter';
   font-style:  normal;
@@ -5,6 +7,15 @@
   font-display: swap;
   src: url("../fonts/inter/Regular.woff2") format("woff2"),
        url("../fonts/inter/Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/inter/Bold.woff2") format("woff2"),
+       url("../fonts/inter/Bold.woff") format("woff");
 }
 
 @font-face {
