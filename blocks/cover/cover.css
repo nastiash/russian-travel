@@ -1,8 +1,5 @@
 /* Основные стили для разрешения до 1280px и выше*/
 .cover {
-  background-image: url(../../images/cover/__background/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   max-width: 1184px;
   min-height: 740px;
 }

@@ -9,7 +9,6 @@
 /* Cтили для для разрешения до 320px */
 @media screen and (max-width: 720px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: calc(14 / 14);
     padding: 48px 0 0;
   }

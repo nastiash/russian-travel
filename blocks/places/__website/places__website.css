@@ -17,7 +17,7 @@
 }
 
 /* Cтили для для разрешения до 320px */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
   .places__website {
     display: none;
   }
