@@ -1,5 +1,6 @@
 # Проект 3: Путешествие по России
 ![russian travel](https://nastiash.github.io/russian-travel/images/lead/__image/polka.jpg)
+
 Третий проект о путешествии по России на курсе веб-разработки в [Яндекс Практикуме](https://praktikum.yandex.ru/web). Одностраничный адаптивный сайт по мотивам учебной темы о Транссибе и iframes &ndash; [путешествие](https://stampsy.com/na-elektrichkakh-do-baikala) от столицы до Байкала на электричках.
 
 ## Обзор контента
