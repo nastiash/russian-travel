@@ -3,6 +3,6 @@
   padding: 0;
 }
 
-.places__paragraph:first-of-type {
-  padding: 0 0 26px;
+.places__paragraph:nth-of-type(2) {
+  padding: 26px 0 0;
 }

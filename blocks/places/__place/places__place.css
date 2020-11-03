@@ -2,9 +2,10 @@
 .places__place {
   padding-bottom: 80px;
   display: grid;
-  grid-template-columns: fit-content(460px) fit-content(484px);
+  grid-template-columns: 460px minmax(320px, 1fr);
   grid-template-rows: auto;
-  gap: 40px;
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
 }
 
 .places__place:last-of-type {
@@ -14,23 +15,26 @@
 /* Cтили для для разрешения до 1024px */
 @media screen and (max-width: 1024px) {
   .places__place {
-    grid-template-columns: fit-content(440px) fit-content(456px);
+    grid-template-columns: 440px minmax(320px, 1fr);
+    grid-column-gap: 32px;
   }
 }
 
 /* Cтили для для разрешения до 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .places__place {
-    grid-template-columns: fit-content(340px) fit-content(352px);
+    grid-template-columns: 340px minmax(320px, 1fr);
+    grid-column-gap: 28px;
     padding-bottom: 72px;
   }
 }
 
-/* Cтили для для разрешения до 520px */
-@media screen and (max-width: 680px) {
+/* Cтили для для разрешения до 720px */
+@media screen and (max-width: 720px) {
   .places__place {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    grid-row-gap: 32px;
     padding-bottom: 49px;
   }
 }
