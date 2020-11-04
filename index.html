@@ -33,8 +33,8 @@
           <li><span class="intro__span-accent">Аэропортов</span> 241</li>
         </ul>
     </section>
-    <!-- Изначально исправила section на div, т.к. валидатор выдает ворнинг, что у секции нет заголовка, но в макете его и нет =( -->
-    <section class="photo-grid alignment">
+    <!-- Спасибо! До конца пока не поняла есть ли ограничения на содержимое в aria-label, но почитаю подробнее -->
+    <section class="photo-grid alignment" aria-label="photos">
       <img class="photo-grid__item" src="./images/photo-grid/__item/train.jpg" alt="вид из окна поезда">
       <img class="photo-grid__item" src="./images/photo-grid/__item/atharva-tulsi.jpg" alt="гора атарва тулси">
       <img class="photo-grid__item" src="./images/photo-grid/__item/tuman.jpg" alt="собака на стоге сена в тумане">
@@ -48,8 +48,7 @@
       <img class="photo-grid__item" src="./images/photo-grid/__item/baikal-2.jpg" alt="пики байкала">
       <img class="photo-grid__item" src="./images/photo-grid/__item/ergaki.jpg" alt="природный парк ергаки">
     </section>
-    <!-- Здесь тоже появился ворнинг, т.к. заголовок уехал в article -->
-    <section class="places alignment">
+    <section class="places alignment" aria-label="articles">
       <article class="places__place">
         <h2 class="places__title">Куршская коса</h2>
         <img class="places__image" src="./images/places/__image/kosa.jpg" alt="берег Куршской косы">
